@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bowdoin-facility-hours/static/css/main.870a0065.chunk.css",
+    "main.js": "/bowdoin-facility-hours/static/js/main.321815a6.chunk.js",
+    "main.js.map": "/bowdoin-facility-hours/static/js/main.321815a6.chunk.js.map",
+    "runtime-main.js": "/bowdoin-facility-hours/static/js/runtime-main.81350abd.js",
+    "runtime-main.js.map": "/bowdoin-facility-hours/static/js/runtime-main.81350abd.js.map",
+    "static/css/2.bd4f2bea.chunk.css": "/bowdoin-facility-hours/static/css/2.bd4f2bea.chunk.css",
+    "static/js/2.bed3ecd0.chunk.js": "/bowdoin-facility-hours/static/js/2.bed3ecd0.chunk.js",
+    "static/js/2.bed3ecd0.chunk.js.map": "/bowdoin-facility-hours/static/js/2.bed3ecd0.chunk.js.map",
+    "index.html": "/bowdoin-facility-hours/index.html",
+    "precache-manifest.2ff33711f0623fc9f8c3bf0f7db73482.js": "/bowdoin-facility-hours/precache-manifest.2ff33711f0623fc9f8c3bf0f7db73482.js",
+    "service-worker.js": "/bowdoin-facility-hours/service-worker.js",
+    "static/css/2.bd4f2bea.chunk.css.map": "/bowdoin-facility-hours/static/css/2.bd4f2bea.chunk.css.map",
+    "static/css/main.870a0065.chunk.css.map": "/bowdoin-facility-hours/static/css/main.870a0065.chunk.css.map",
+    "static/js/2.bed3ecd0.chunk.js.LICENSE.txt": "/bowdoin-facility-hours/static/js/2.bed3ecd0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81350abd.js",
+    "static/css/2.bd4f2bea.chunk.css",
+    "static/js/2.bed3ecd0.chunk.js",
+    "static/css/main.870a0065.chunk.css",
+    "static/js/main.321815a6.chunk.js"
+  ]
+}
