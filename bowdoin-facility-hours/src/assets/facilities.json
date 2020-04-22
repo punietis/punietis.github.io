@@ -1,0 +1,1509 @@
+[
+	{
+		"id": 1,
+		"name": "Thorne",
+		"favorite": true,
+		"filter": "food",
+		"open": false,
+		"tags": [ "dining", "food" ],
+		"alternateNames": [ "thorne dining hall" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Fri",
+				"hours": [ "8:00AM-10AM", "11:30AM-2PM", "5PM-8PM" ]
+			},
+			{
+				"id": 2,
+				"weekDays": "Sat-Sun",
+				"hours": [ "11AM-1:30PM", "5PM-7:30PM" ]
+			}
+		],
+		"hours": {
+			"monday": [
+				{
+					"open": "0800",
+					"close": "1000",
+					"name": "Hot Breakfast"
+				},
+				{
+					"open": "1130",
+					"close": "1400",
+					"name": "Lunch"
+				},
+				{
+					"open": "1700",
+					"close": "2000",
+					"name": "Dinner"
+				}
+			],
+			"tuesday": [
+				{
+					"open": "0800",
+					"close": "1000",
+					"name": "Hot Breakfast"
+				},
+				{
+					"open": "1130",
+					"close": "1400",
+					"name": "Lunch"
+				},
+				{
+					"open": "1700",
+					"close": "2000",
+					"name": "Dinner"
+				}
+			],
+			"wednesday": [
+				{
+					"open": "0800",
+					"close": "1000",
+					"name": "Hot Breakfast"
+				},
+				{
+					"open": "1130",
+					"close": "1400",
+					"name": "Lunch"
+				},
+				{
+					"open": "1700",
+					"close": "2000",
+					"name": "Dinner"
+				}
+			],
+			"thursday": [
+				{
+					"open": "0800",
+					"close": "1000",
+					"name": "Hot Breakfast"
+				},
+				{
+					"open": "1130",
+					"close": "1400",
+					"name": "Lunch"
+				},
+				{
+					"open": "1700",
+					"close": "2000",
+					"name": "Dinner"
+				},
+				{
+					"open": "2200",
+					"close": "0100",
+					"name": "Super Snack"
+				}
+			],
+			"friday": [
+				{
+					"open": "0800",
+					"close": "1000",
+					"name": "Hot Breakfast"
+				},
+				{
+					"open": "1130",
+					"close": "1400",
+					"name": "Lunch"
+				},
+				{
+					"open": "1700",
+					"close": "2000",
+					"name": "Dinner"
+				},
+				{
+					"open": "2200",
+					"close": "0100",
+					"name": "Super Snack"
+				}
+			],
+			"saturday": [
+				{
+					"open": "1100",
+					"close": "1330",
+					"name": "Brunch"
+				},
+				{
+					"open": "1700",
+					"close": "1930",
+					"name": "Dinner"
+				},
+				{
+					"open": "2200",
+					"close": "0100",
+					"name": "Super Snack"
+				}
+			],
+			"sunday": [
+				{
+					"open": "1100",
+					"close": "1330",
+					"name": "Brunch"
+				},
+				{
+					"open": "1700",
+					"close": "1930",
+					"name": "Dinner"
+				}
+			]
+		}
+	},
+	{
+		"id": 2,
+		"name": "Moulton",
+		"favorite": false,
+		"filter": "food",
+		"open": false,
+		"tags": [ "dining", "food" ],
+		"alternateNames": [ "moulton union, moulton dining hall" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Fri",
+				"hours": [ "7:15AM-9AM", "9AM-10:30AM", "11AM-2PM", "5PM-7PM" ]
+			},
+			{
+				"id": 2,
+				"weekDays": "Sat-Sun",
+				"hours": [ "9AM-11AM", "11AM-12:30PM", "5PM-7:30PM" ]
+			}
+		],
+		"hours": {
+			"monday": [
+				{
+					"open": "0715",
+					"close": "0900",
+					"name": "Hot Breakfast"
+				},
+				{
+					"open": "0900",
+					"close": "1030",
+					"name": "Continential Breakfast"
+				},
+				{
+					"open": "1100",
+					"close": "1400",
+					"name": "Lunch"
+				},
+				{
+					"open": "1700",
+					"close": "1900",
+					"name": "Dinner"
+				}
+			],
+			"tuesday": [
+				{
+					"open": "0715",
+					"close": "0900",
+					"name": "Hot Breakfast"
+				},
+				{
+					"open": "0900",
+					"close": "1030",
+					"name": "Continential Breakfast"
+				},
+				{
+					"open": "1100",
+					"close": "1400",
+					"name": "Lunch"
+				},
+				{
+					"open": "1700",
+					"close": "1900",
+					"name": "Dinner"
+				}
+			],
+			"wednesday": [
+				{
+					"open": "0715",
+					"close": "0900",
+					"name": "Hot Breakfast"
+				},
+				{
+					"open": "0900",
+					"close": "1030",
+					"name": "Continential Breakfast"
+				},
+				{
+					"open": "1100",
+					"close": "1400",
+					"name": "Lunch"
+				},
+				{
+					"open": "1700",
+					"close": "1900",
+					"name": "Dinner"
+				}
+			],
+			"thursday": [
+				{
+					"open": "0715",
+					"close": "0900",
+					"name": "Hot Breakfast"
+				},
+				{
+					"open": "0900",
+					"close": "1030",
+					"name": "Continential Breakfast"
+				},
+				{
+					"open": "1100",
+					"close": "1400",
+					"name": "Lunch"
+				},
+				{
+					"open": "1700",
+					"close": "1900",
+					"name": "Dinner"
+				}
+			],
+			"friday": [
+				{
+					"open": "0715",
+					"close": "0900",
+					"name": "Hot Breakfast"
+				},
+				{
+					"open": "0900",
+					"close": "1030",
+					"name": "Continential Breakfast"
+				},
+				{
+					"open": "1100",
+					"close": "1400",
+					"name": "Lunch"
+				},
+				{
+					"open": "1700",
+					"close": "1900",
+					"name": "Dinner"
+				}
+			],
+			"saturday": [
+				{
+					"open": "0900",
+					"close": "1100",
+					"name": "Breakfast"
+				},
+				{
+					"open": "1100",
+					"close": "1230",
+					"name": "Brunch"
+				},
+				{
+					"open": "1700",
+					"close": "1900",
+					"name": "Dinner"
+				}
+			],
+			"sunday": [
+				{
+					"open": "0900",
+					"close": "1100",
+					"name": "Breakfast"
+				},
+				{
+					"open": "1100",
+					"close": "1230",
+					"name": "Brunch"
+				},
+				{
+					"open": "1700",
+					"close": "1900",
+					"name": "Dinner"
+				}
+			]
+		}
+	},
+	{
+		"id": 3,
+		"name": "Moulton Express",
+		"favorite": true,
+		"filter": "food",
+		"open": false,
+		"tags": [ "dining", "food" ],
+		"alternateNames": [ "express" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Fri",
+				"hours": [ "5PM-8PM" ]
+			},
+			{
+				"id": 2,
+				"weekDays": "Sat-Sun",
+				"hours": [ "5PM-7PM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "1700",
+				"close": "2000"
+			},
+			"tuesday": {
+				"open": "1700",
+				"close": "2000"
+			},
+			"wednesday": {
+				"open": "1700",
+				"close": "2000"
+			},
+			"thursday": {
+				"open": "1700",
+				"close": "2000"
+			},
+			"friday": {
+				"open": "1700",
+				"close": "2000"
+			},
+			"saturday": {
+				"open": "1700",
+				"close": "1900"
+			},
+			"sunday": {
+				"open": "1700",
+				"close": "1900"
+			}
+		}
+	},
+	{
+		"id": 4,
+		"name": "The Pub",
+		"favorite": false,
+		"filter": "food",
+		"open": false,
+		"tags": [ "dining", "food" ],
+		"alternateNames": [
+			"jack magee's pub & grill",
+			"jack magee's pub and grill",
+			"the grill",
+			"pub",
+			"jack magee's",
+			"magee's"
+		],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Fri",
+				"hours": [ "11:30AM-12AM" ]
+			},
+			{
+				"id": 2,
+				"weekDays": "Thu",
+				"hours": [ "11:30AM-1AM" ]
+			},
+			{
+				"id": 3,
+				"weekDays": "Fri",
+				"hours": [ "4PM-12AM" ]
+			},
+			{
+				"id": 4,
+				"weekDays": "Sun",
+				"hours": [ "6:30PM-12AM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "1130",
+				"close": "0000",
+				"name": "Grill"
+			},
+			"tuesday": {
+				"open": "1130",
+				"close": "0000",
+				"name": "Grill"
+			},
+			"wednesday": {
+				"open": "1130",
+				"close": "0000",
+				"name": "Grill"
+			},
+			"thursday": [
+				{
+					"open": "1130",
+					"close": "0100",
+					"name": "Grill"
+				},
+				{
+					"open": "2030",
+					"close": "0100",
+					"name": "Pub"
+				}
+			],
+			"friday": [
+				{
+					"open": "1130",
+					"close": "1900",
+					"name": "Grill"
+				},
+				{
+					"open": "1600",
+					"close": "2000",
+					"name": "Pub"
+				}
+			],
+			"saturday": {
+				"open": "closed"
+			},
+			"sunday": {
+				"open": "1830",
+				"close": "0000",
+				"name": "Grill"
+			}
+		}
+	},
+	{
+		"id": 5,
+		"name": "Fast Track",
+		"favorite": false,
+		"filter": "food",
+		"open": false,
+		"tags": [ "dining", "food" ],
+		"alternateNames": [ "pub fast track", "jack magee's fast track" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Fri",
+				"hours": [ "11:15AM-3PM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "1115",
+				"close": "1500"
+			},
+			"tuesday": {
+				"open": "1115",
+				"close": "1500"
+			},
+			"wednesday": {
+				"open": "1115",
+				"close": "1500"
+			},
+			"thursday": {
+				"open": "1115",
+				"close": "1500"
+			},
+			"friday": {
+				"open": "1115",
+				"close": "1500"
+			},
+			"saturday": {
+				"open": "closed"
+			},
+			"sunday": {
+				"open": "closed"
+			}
+		}
+	},
+	{
+		"id": 6,
+		"name": "Buck Fitness Center",
+		"favorite": false,
+		"filter": "athletics",
+		"open": false,
+		"tags": [ "fitness", "athletics", "working out", "work out", "exercise", "workout" ],
+		"alternateNames": [ "gym", "the gym", "buck" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Fri",
+				"hours": [ "6AM-12AM" ]
+			},
+			{
+				"id": 2,
+				"weekDays": "Sat",
+				"hours": [ "8AM-10PM" ]
+			},
+			{
+				"id": 3,
+				"weekDays": "Sun",
+				"hours": [ "9AM-10PM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "0630",
+				"close": "0000"
+			},
+			"tuesday": {
+				"open": "0630",
+				"close": "0000"
+			},
+			"wednesday": {
+				"open": "0630",
+				"close": "0000"
+			},
+			"thursday": {
+				"open": "0630",
+				"close": "0000"
+			},
+			"friday": {
+				"open": "0630",
+				"close": "0000"
+			},
+			"saturday": {
+				"open": "0800",
+				"close": "2200"
+			},
+			"sunday": {
+				"open": "0900",
+				"close": "2200"
+			}
+		}
+	},
+	{
+		"id": 7,
+		"name": "Smith Union",
+		"favorite": false,
+		"filter": "academic",
+		"open": false,
+		"tags": [ "study space", "study spaces" ],
+		"alternateNames": [ "su", "smith", "the union" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Every day",
+				"hours": [ "24hrs" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "24hrs"
+			},
+			"tuesday": {
+				"open": "24hrs"
+			},
+			"wednesday": {
+				"open": "24hrs"
+			},
+			"thursday": {
+				"open": "24hrs"
+			},
+			"friday": {
+				"open": "24hrs"
+			},
+			"saturday": {
+				"open": "24hrs"
+			},
+			"sunday": {
+				"open": "24hrs"
+			}
+		}
+	},
+	{
+		"id": 8,
+		"name": "VAC",
+		"favorite": false,
+		"filter": "academic",
+		"open": false,
+		"tags": [ "study space", "study spaces" ],
+		"alternateNames": [ "visual arts center", "the visual arts center" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Sun",
+				"hours": [ "7AM-11PM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "0700",
+				"close": "2300"
+			},
+			"tuesday": {
+				"open": "0700",
+				"close": "2300"
+			},
+			"wednesday": {
+				"open": "0700",
+				"close": "2300"
+			},
+			"thursday": {
+				"open": "0700",
+				"close": "2300"
+			},
+			"friday": {
+				"open": "0700",
+				"close": "2300"
+			},
+			"saturday": {
+				"open": "0700",
+				"close": "2300"
+			},
+			"sunday": {
+				"open": "0700",
+				"close": "2300"
+			}
+		}
+	},
+	{
+		"id": 9,
+		"name": "Mail Center",
+		"favorite": false,
+		"filter": "other",
+		"open": false,
+		"tags": [],
+		"alternateNames": [ "package center", "mail room", "mail pickup", "package pickup", "shipping" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Fri",
+				"hours": [ "8AM-5PM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "0800",
+				"close": "1700"
+			},
+			"tuesday": {
+				"open": "0800",
+				"close": "1700"
+			},
+			"wednesday": {
+				"open": "0800",
+				"close": "1700"
+			},
+			"thursday": {
+				"open": "0800",
+				"close": "1700"
+			},
+			"friday": {
+				"open": "0800",
+				"close": "1700"
+			},
+			"saturday": {
+				"open": "closed"
+			},
+			"sunday": {
+				"open": "closed"
+			}
+		}
+	},
+	{
+		"id": 10,
+		"name": "HL Library",
+		"favorite": false,
+		"filter": "academic",
+		"open": false,
+		"tags": [ "academic, study space" ],
+		"alternateNames": [ "hawthorne longfellow library", "hl", "h-l", "h and l", "h & l", "h&l" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Wed",
+				"hours": [ "8AM-1:30AM" ]
+			},
+			{
+				"id": 2,
+				"weekDays": "Thu",
+				"hours": [ "8AM-10PM" ]
+			},
+			{
+				"id": 3,
+				"weekDays": "Fri",
+				"hours": [ "8AM-11PM" ]
+			},
+			{
+				"id": 4,
+				"weekDays": "Sat",
+				"hours": [ "10AM-11PM" ]
+			},
+			{
+				"id": 5,
+				"weekDays": "Sun",
+				"hours": [ "10AM-1:30AM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "0800",
+				"close": "0130"
+			},
+			"tuesday": {
+				"open": "0800",
+				"close": "0130"
+			},
+			"wednesday": {
+				"open": "0800",
+				"close": "0130"
+			},
+			"thursday": {
+				"open": "0800",
+				"close": "0000"
+			},
+			"friday": {
+				"open": "0800",
+				"close": "2300"
+			},
+			"saturday": {
+				"open": "1000",
+				"close": "2300"
+			},
+			"sunday": {
+				"open": "1000",
+				"close": "0130"
+			}
+		}
+	},
+	{
+		"id": 11,
+		"name": "Hatch Library",
+		"favorite": false,
+		"filter": "academic",
+		"open": false,
+		"tags": [ "academic, study space" ],
+		"alternateNames": [ "science library" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Thu",
+				"hours": [ "8:30AM-12AM" ]
+			},
+			{
+				"id": 2,
+				"weekDays": "Fri",
+				"hours": [ "8:30AM-8PM" ]
+			},
+			{
+				"id": 3,
+				"weekDays": "Sat",
+				"hours": [ "12PM-8PM" ]
+			},
+			{
+				"id": 4,
+				"weekDays": "Sun",
+				"hours": [ "12PM-12AM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "0830",
+				"close": "0000"
+			},
+			"tuesday": {
+				"open": "0830",
+				"close": "0000"
+			},
+			"wednesday": {
+				"open": "0830",
+				"close": "0000"
+			},
+			"thursday": {
+				"open": "0830",
+				"close": "0000"
+			},
+			"friday": {
+				"open": "0830",
+				"close": "2000"
+			},
+			"saturday": {
+				"open": "1200",
+				"close": "2000"
+			},
+			"sunday": {
+				"open": "1200",
+				"close": "0000"
+			}
+		}
+	},
+	{
+		"id": 12,
+		"name": "Special Collections",
+		"favorite": false,
+		"filter": "academic",
+		"open": false,
+		"tags": [ "academic" ],
+		"alternateNames": [
+			"hawthorne longfellow special collections & archive",
+			"hl special collections and archive",
+			"h-l",
+			"h and l",
+			"h & l",
+			"h&l",
+			"special collections & archives",
+			"archives",
+			"archivals"
+		],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Fri",
+				"hours": [ "10AM-5PM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "1000",
+				"close": "1700"
+			},
+			"tuesday": {
+				"open": "1000",
+				"close": "1700"
+			},
+			"wednesday": {
+				"open": "1000",
+				"close": "1700"
+			},
+			"thursday": {
+				"open": "1000",
+				"close": "1700"
+			},
+			"friday": {
+				"open": "1000",
+				"close": "1700"
+			},
+			"saturday": {
+				"open": "closed"
+			},
+			"sunday": {
+				"open": "closed"
+			}
+		}
+	},
+	{
+		"id": 13,
+		"name": "Morrell Gym",
+		"favorite": false,
+		"filter": "athletics",
+		"open": false,
+		"tags": [ "athletics" ],
+		"alternateNames": [ "basketball court", "basketball gym" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Fri",
+				"hours": [ "6:30AM-10PM" ]
+			},
+			{
+				"id": 2,
+				"weekDays": "Sat",
+				"hours": [ "8AM-10PM" ]
+			},
+			{
+				"id": 3,
+				"weekDays": "Sun",
+				"hours": [ "9AM-10PM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "0630",
+				"close": "2200"
+			},
+			"tuesday": {
+				"open": "0630",
+				"close": "2200"
+			},
+			"wednesday": {
+				"open": "0630",
+				"close": "2200"
+			},
+			"thursday": {
+				"open": "0630",
+				"close": "2200"
+			},
+			"friday": {
+				"open": "0630",
+				"close": "2200"
+			},
+			"saturday": {
+				"open": "0800",
+				"close": "2200"
+			},
+			"sunday": {
+				"open": "0900",
+				"close": "2200"
+			}
+		}
+	},
+	{
+		"id": 14,
+		"name": "The Café",
+		"favorite": false,
+		"filter": "food",
+		"open": false,
+		"tags": [ "food" ],
+		"alternateNames": [ "cafe, the cafe, café, smith union cafe" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Wed",
+				"hours": [ "7:30AM-4:30PM", "8PM-12AM" ]
+			},
+			{
+				"id": 2,
+				"weekDays": "Thurs-Fri",
+				"hours": [ "7:30AM-4:30PM" ]
+			},
+			{
+				"id": 3,
+				"weekDays": "Sat",
+				"hours": [ "11AM-4pm" ]
+			},
+			{
+				"id": 4,
+				"weekDays": "Sun",
+				"hours": [ "11AM-4pm", "8PM-12AM" ]
+			}
+		],
+		"hours": {
+			"monday": [
+				{
+					"open": "0730",
+					"close": "1630"
+				},
+				{
+					"open": "2000",
+					"close": "0000"
+				}
+			],
+			"tuesday": [
+				{
+					"open": "0730",
+					"close": "1630"
+				},
+				{
+					"open": "2000",
+					"close": "0000"
+				}
+			],
+			"wednesday": [
+				{
+					"open": "0730",
+					"close": "1630"
+				},
+				{
+					"open": "2000",
+					"close": "0000"
+				}
+			],
+			"thursday": {
+				"open": "0730",
+				"close": "1630"
+			},
+			"friday": {
+				"open": "0730",
+				"close": "1630"
+			},
+			"saturday": {
+				"open": "1100",
+				"close": "1600"
+			},
+			"sunday": [
+				{
+					"open": "1100",
+					"close": "1600"
+				},
+				{
+					"open": "2000",
+					"close": "0000"
+				}
+			]
+		}
+	},
+	{
+		"id": 15,
+		"name": "Health Center",
+		"favorite": false,
+		"filter": "other",
+		"open": false,
+		"tags": [ "medical", "health", "wellness", "doctor", "sick" ],
+		"alternateNames": [ "the health center", "health services", "health services center" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Tue",
+				"hours": [ "8:30AM-5PM" ]
+			},
+			{
+				"id": 2,
+				"weekDays": "Wed",
+				"hours": [ "10:30AM-5PM" ]
+			},
+			{
+				"id": 3,
+				"weekDays": "Thu-Fri",
+				"hours": [ "8:30AM-5PM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "0830",
+				"close": "1700"
+			},
+			"tuesday": {
+				"open": "0830",
+				"close": "1700"
+			},
+			"wednesday": {
+				"open": "1030",
+				"close": "1700"
+			},
+			"thursday": {
+				"open": "0830",
+				"close": "1700"
+			},
+			"friday": {
+				"open": "0830",
+				"close": "1700"
+			},
+			"saturday": {
+				"open": "closed"
+			},
+			"sunday": {
+				"open": "closed"
+			}
+		}
+	},
+	{
+		"id": 16,
+		"name": "Kanbar Hall",
+		"favorite": false,
+		"filter": "academic",
+		"open": false,
+		"tags": [ "study space", "study spaces" ],
+		"alternateNames": [ "kanbar", "psych building", "psychology building" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Every day",
+				"hours": [ "24hrs" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "24hrs"
+			},
+			"tuesday": {
+				"open": "24hrs"
+			},
+			"wednesday": {
+				"open": "24hrs"
+			},
+			"thursday": {
+				"open": "24hrs"
+			},
+			"friday": {
+				"open": "24hrs"
+			},
+			"saturday": {
+				"open": "24hrs"
+			},
+			"sunday": {
+				"open": "24hrs"
+			}
+		}
+	},
+	{
+		"id": 17,
+		"name": "Druckenmiller",
+		"favorite": false,
+		"filter": "academic",
+		"open": false,
+		"tags": [ "study space", "study spaces", "bio", "biology", "chem", "chemistry" ],
+		"alternateNames": [ "druck", "druckenmiller hall" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Every day",
+				"hours": [ "24hrs" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "24hrs"
+			},
+			"tuesday": {
+				"open": "24hrs"
+			},
+			"wednesday": {
+				"open": "24hrs"
+			},
+			"thursday": {
+				"open": "24hrs"
+			},
+			"friday": {
+				"open": "24hrs"
+			},
+			"saturday": {
+				"open": "24hrs"
+			},
+			"sunday": {
+				"open": "24hrs"
+			}
+		}
+	},
+	{
+		"id": 18,
+		"name": "Counseling Center",
+		"favorite": false,
+		"filter": "academic",
+		"open": false,
+		"tags": [ "help", "crisis", "psychiatrist", "mental health", "therapy", "meditation", "yoga" ],
+		"alternateNames": [ "32 college street", "counseling and wellness services", "herbert ross brown house" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Fri",
+				"hours": [ "8:30AM-5PM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "0830",
+				"close": "1700"
+			},
+			"tuesday": {
+				"open": "0830",
+				"close": "1700"
+			},
+			"wednesday": {
+				"open": "0830",
+				"close": "1700"
+			},
+			"thursday": {
+				"open": "0830",
+				"close": "1700"
+			},
+			"friday": {
+				"open": "0830",
+				"close": "1700"
+			},
+			"saturday": {
+				"open": "closed"
+			},
+			"sunday": {
+				"open": "closed"
+			}
+		}
+	},
+	{
+		"id": 19,
+		"name": "Sargent Gym",
+		"favorite": false,
+		"filter": "athletic",
+		"open": false,
+		"tags": [ "sport", "im", "intramural", "basketball", "court", "gym space", "volleyball court", "court" ],
+		"alternateNames": [ "basketball court", "gym" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Fri",
+				"hours": [ "6:30AM-10PM" ]
+			},
+			{
+				"id": 2,
+				"weekDays": "Sat",
+				"hours": [ "8AM-10PM" ]
+			},
+			{
+				"id": 3,
+				"weekDays": "Sun",
+				"hours": [ "9AM-10PM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "0630",
+				"close": "2200"
+			},
+			"tuesday": {
+				"open": "0630",
+				"close": "2200"
+			},
+			"wednesday": {
+				"open": "0630",
+				"close": "2200"
+			},
+			"thursday": {
+				"open": "0630",
+				"close": "2200"
+			},
+			"friday": {
+				"open": "0630",
+				"close": "2200"
+			},
+			"saturday": {
+				"open": "0800",
+				"close": "2200"
+			},
+			"sunday": {
+				"open": "0900",
+				"close": "2200"
+			}
+		}
+	},
+	{
+		"id": 20,
+		"name": "Craft Center",
+		"favorite": false,
+		"filter": "recreation",
+		"open": false,
+		"tags": [ "other" ],
+		"alternateNames": [ "craft center", "pins", "decoration", "arts and craft" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Every day",
+				"hours": [ "24hrs" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "24hrs"
+			},
+			"tuesday": {
+				"open": "24hrs"
+			},
+			"wednesday": {
+				"open": "24hrs"
+			},
+			"thursday": {
+				"open": "24hrs"
+			},
+			"friday": {
+				"open": "24hrs"
+			},
+			"saturday": {
+				"open": "24hrs"
+			},
+			"sunday": {
+				"open": "24hrs"
+			}
+		}
+	},
+	{
+		"id": 21,
+		"name": "Smith Union Info Desk",
+		"favorite": false,
+		"filter": "other",
+		"open": false,
+		"tags": [ "office", "staff", "help" ],
+		"alternateNames": [ "su", "smith", "the union", "information" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Thu",
+				"hours": [ "8:30AM-6PM" ]
+			},
+			{
+				"id": 2,
+				"weekDays": "Fri",
+				"hours": [ "8:30AM-5PM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "0830",
+				"close": "1800"
+			},
+			"tuesday": {
+				"open": "0830",
+				"close": "1800"
+			},
+			"wednesday": {
+				"open": "0830",
+				"close": "1800"
+			},
+			"thursday": {
+				"open": "0830",
+				"close": "1800"
+			},
+			"friday": {
+				"open": "0830",
+				"close": "1700"
+			},
+			"saturday": {
+				"open": "closed"
+			},
+			"sunday": {
+				"open": "closed"
+			}
+		}
+	},
+	{
+		"id": 22,
+		"name": "C-Store",
+		"favorite": false,
+		"filter": "food",
+		"open": false,
+		"tags": [ "food" , "snacks", "polar points"],
+		"alternateNames": [ "bowdoin express", "convenience store", "bowdoin convenience store" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Fri",
+				"hours": [ "8:30AM-12AM" ]
+			},
+			{
+				"id": 2,
+				"weekDays": "Sat-Sun",
+				"hours": [ "11AM-12AM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "0830",
+				"close": "0000"
+			},
+			"tuesday": {
+				"open": "0830",
+				"close": "0000"
+			},
+			"wednesday": {
+				"open": "0830",
+				"close": "0000"
+			},
+			"thursday": {
+				"open": "0830",
+				"close": "0000"
+			},
+			"friday": {
+				"open": "0830",
+				"close": "0000"
+			},
+			"saturday": {
+				"open": "1100",
+				"close": "0000"
+			},
+			"sunday": {
+				"open": "1100",
+				"close": "0000"
+			}
+		}
+	},
+	{
+		"id": 23,
+		"name": "Security Administrative Office",
+		"favorite": false,
+		"filter": "other",
+		"open": false,
+		"tags": [ "safety", "lost items", "lost and found", "help" ],
+		"alternateNames": [ "security", "safety and security" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Mon-Fri",
+				"hours": [ "8:00AM-4:30PM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "0800",
+				"close": "1630"
+			},
+			"tuesday": {
+				"open": "0800",
+				"close": "1630"
+			},
+			"wednesday": {
+				"open": "0800",
+				"close": "1630"
+			},
+			"thursday": {
+				"open": "0800",
+				"close": "1630"
+			},
+			"friday": {
+				"open": "0800",
+				"close": "1630"
+			},
+			"saturday": {
+				"open": "closed"
+			},
+			"sunday": {
+				"open": "closed"
+			}
+		}
+	},
+	{
+		"id": 24,
+		"name": "Safety and Security",
+		"favorite": false,
+		"filter": "other",
+		"open": false,
+		"tags": [ "safety", "help" ],
+		"alternateNames": [ "security", "safety and security" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Every day",
+				"hours": [ "24hrs" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "24hrs"
+			},
+			"tuesday": {
+				"open": "24hrs"
+			},
+			"wednesday": {
+				"open": "24hrs"
+			},
+			"thursday": {
+				"open": "24hrs"
+			},
+			"friday": {
+				"open": "24hrs"
+			},
+			"saturday": {
+				"open": "24hrs"
+			},
+			"sunday": {
+				"open": "24hrs"
+			}
+		}
+	},
+	{
+		"id": 25,
+		"name": "Bowdoin Shuttle",
+		"favorite": false,
+		"filter": "other",
+		"open": false,
+		"tags": [ "ride", "help" ],
+		"alternateNames": [ "the shuttle", "shuttle", "safe ride" ],
+		"shorthandHours": [
+			{
+				"id": 1,
+				"weekDays": "Sun-Wed",
+				"hours": [ "6:00PM-1:00AM" ]
+			}, {
+				"id": 2,
+				"weekDays": "Thu-Sat",
+				"hours": [ "6:00PM-1:30AM" ]
+			}
+		],
+		"hours": {
+			"monday": {
+				"open": "1800",
+				"close": "1000"
+			},
+			"tuesday": {
+				"open": "1800",
+				"close": "1000"
+			},
+			"wednesday": {
+				"open": "1800",
+				"close": "1000"
+			},
+			"thursday": {
+				"open": "1800",
+				"close": "0130"
+			},
+			"friday": {
+				"open": "1800",
+				"close": "0130"
+			},
+			"saturday": {
+				"open": "1800",
+				"close": "0130"
+			},
+			"sunday": {
+				"open": "1800",
+				"close": "1000"
+			}
+		}
+	}
+]

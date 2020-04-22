@@ -1,0 +1,92 @@
+.filterHeader {
+	color: white;
+	font-family: Montserrat;
+	font-weight: 200;
+	font-size: 1.5rem;
+	margin: 0 0 5px 0;
+}
+
+.filterPanel {
+	background-color: #aec1cb;
+	height: 250px;
+
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.filterTag {
+	display: inline-block;
+
+	background-color: white;
+	color: #143344;
+
+	font-family: Montserrat;
+	font-size: 0.8rem;
+
+	border-radius: 20px;
+
+	padding: 6px 13px;
+	margin-bottom: 17px;
+	-webkit-user-select: none;
+	/* border: 2px solid transparent; */
+}
+
+.filterTag:hover {
+	/* border: 2px solid #0198fa; */
+	box-shadow: 0px 0px 4px 2px #143344;
+}
+
+.selectedFilterTag {
+	composes: filterTag;
+	background-color: #143344;
+	color: white;
+	font-weight: 600;
+}
+
+.filterName {
+	margin: 0;
+	-webkit-user-select: none;
+}
+
+.timePicker {
+	border-radius: 20px;
+	border: none;
+	width: 85px;
+	text-align: center;
+	padding: 2px 4px;
+	color: #617a88;
+}
+
+.dropDownSVG {
+	fill: #143344;
+
+	position: relative;
+	top: 2px;
+}
+
+.selectedDropDownSVG {
+	composes: dropDownSVG;
+	fill: white;
+}
+
+.dropDownWithToolTip {
+	display: inline-block;
+	/* background-color: pink; */
+	margin-left: 5px;
+}
+
+.calendarPopup {
+	margin-top: 4px;
+}
+
+/* change time input box styling*/
+input[type='time' i] {
+	font-family: "Helvetica Neue";
+	font-size: 0.8rem;
+	color: #143344;
+	border-radius: 6px;
+	border-style: solid;
+	border: 2px solid #617a88;
+	letter-spacing: 1px;
+	text-indent: 7.5px;
+}

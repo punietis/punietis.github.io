@@ -1,0 +1,194 @@
+/* results section */
+.resultsHeader {
+	color: white;
+	font-family: Montserrat;
+	font-weight: 200;
+	margin: 0 0 5px 0;
+}
+
+.resultPanel {
+	background-color: white;
+	padding: 20px;
+	padding-right: 17px;
+	border-radius: 15px;
+}
+
+.cardPanel {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1.25em;
+}
+
+.clickable {
+	padding: 0;
+	border: none;
+}
+
+/* scroll bar customization */
+.scrollBar {
+	height: 250px;
+	overflow-y: auto;
+	padding: 0 8px 0 0;
+}
+
+::-webkit-scrollbar {
+	width: 7px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 15px;
+	background-color: #e4e4e4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #cbcbcb;
+}
+
+/* card skeleton */
+.card {
+	position: relative;
+
+	border-radius: 15px;
+	width: 15rem;
+	height: 6rem;
+
+	padding: 10px;
+	text-align: center;
+	font-family: Montserrat;
+
+	-webkit-user-select: none;
+}
+
+.open {
+	composes: card;
+	background: #c1f0ba;
+}
+
+.closed {
+	composes: card;
+	background: #c4c4c4;
+}
+
+.unavailable {
+	composes: card;
+	background: #f0bdba;
+}
+
+/* facility name on card */
+.name {
+	height: 50px;
+	width: 70%;
+	margin: auto;
+
+	/* center vertically */
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+/* heart on card */
+.heartWrapper {
+	/* positions in top right corner */
+	position: absolute;
+	right: 3%;
+	top: 7%;
+
+	/* make button format disappear */
+	padding: 0;
+	border: none;
+	background-color: transparent;
+}
+
+.heart {
+	/* controls how big heart is */
+	height: 18px;
+	stroke: rgb(0, 0, 0, 0.54);
+	stroke-width: 2.2px;
+}
+
+.unfilledHeart:hover {
+	fill: rgb(0, 0, 0, 0.2);
+}
+
+.unfilledHeart {
+	composes: heart;
+	fill: transparent;
+}
+
+.filledHeart {
+	composes: heart;
+	fill: rgb(0, 0, 0, 0.54);
+	stroke-width: 0px;
+}
+
+.filledHeart:hover {
+	stroke: rgb(0, 0, 0, 0.3);
+	stroke-width: 2px;
+}
+
+/* full time button */
+.fullTimeButton {
+	width: 18px;
+	position: absolute;
+	/* right: 3%;
+	top: 7%; */
+	left: 4%;
+	top: 7%;
+	/* background-color: yellow; */
+}
+
+/* time info */
+.info {
+	margin-top: 4px;
+}
+
+.status {
+	margin: 0px 3px;
+	display: inline-block;
+	font-size: 1.85rem;
+	font-weight: bold;
+}
+
+.time {
+	font-size: 1rem;
+	margin: 0px 3px;
+	display: inline-block;
+}
+
+/* full hour tooltip styles */
+.tooltipHours {
+	padding: 0 7px;
+	text-align: left;
+}
+
+/* one weekday(s) + all its hours */
+.fullTime {
+	margin: 13px 0;
+	font-family: Montserrat;
+}
+
+.todayFullTime {
+	composes: fullTime;
+	font-weight: 600;
+}
+
+.weekDay {
+	display: inline-block;
+	vertical-align: top;
+	/* resets all default margins, adds 15px between weekday & hours sections */
+	margin: 0;
+	margin-right: 15px;
+}
+
+.shorthandHour {
+	/* changes distance between each hour line */
+	margin: 0;
+	letter-spacing: 0.01rem;
+}
+
+.shorthandHours {
+	display: inline-block;
+	vertical-align: top;
+}
